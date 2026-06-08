@@ -1,0 +1,16 @@
+{
+  "name": "nunabot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Solana-native GPU bot protocol: reputation-routed compute marketplace for users and AI agents",
+  "scripts": {
+    "setup": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install",
+    "dev": "concurrently -n api,web -c magenta,cyan \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "cd backend && python run.py",
+    "dev:web": "cd frontend && npm run dev",
+    "test": "pytest tests/ -v"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      - NUNA_LLM_API_KEY=${NUNA_LLM_API_KEY:-}
+      - NUNA_HOST=0.0.0.0
+    restart: unless-stopped
