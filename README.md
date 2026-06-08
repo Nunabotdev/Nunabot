@@ -1,4 +1,5 @@
-# Nunabot
+<img width="1070" height="705" alt="image" src="https://github.com/user-attachments/assets/27780d30-c420-4e03-ba2d-b9db9d5ea804" />
+
 
 **A Solana-native GPU bot protocol.** A bot-first compute marketplace that connects users, AI agents,
 and GPU providers. Request an AI task through a bot, Nunabot prices it, routes it to the best provider
